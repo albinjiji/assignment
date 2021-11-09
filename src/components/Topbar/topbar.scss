@@ -1,0 +1,80 @@
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      flex: 0.35;
+
+      .logo {
+        font-size: 35px;
+        font-weight: 100;
+        text-decoration: none;
+        color: inherit;
+        color: #34a1eb;
+      }
+    }
+
+    .right {
+      flex: 0.65;
+      color: inherit;
+      color: #34a1eb;
+      text-decoration: none;
+      position: relative;
+      justify-content: space-between;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+
+      .home {
+        text-decoration: none;
+        color: #34a1eb;
+      }
+
+      .app {
+        text-decoration: none;
+        color: #34a1eb;
+      }
+
+      .gallery {
+        text-decoration: none;
+        color: #34a1eb;
+      }
+
+      .pricing {
+        text-decoration: none;
+        color: #34a1eb;
+      }
+
+      .frequent {
+        text-decoration: none;
+        color: #34a1eb;
+      }
+
+      .contact {
+        text-decoration: none;
+        color: #34a1eb;
+      }
+
+      .container {
+        color: white;
+        background-color: #34a1eb;
+        border-radius: 30px;
+        align-items: center;
+        text-align: center;
+        width: 120px;
+        height: 21px;
+      }
+    }
+  }
+}
