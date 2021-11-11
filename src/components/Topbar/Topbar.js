@@ -1,7 +1,7 @@
 import React from "react";
 import "./topbar.scss";
 
-export const Topbar = () => {
+export default function Topbar() {
   return (
     <div className="topbar">
       <div className="wrapper">
@@ -35,4 +35,4 @@ export const Topbar = () => {
       </div>
     </div>
   );
-};
+}

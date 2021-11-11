@@ -2,10 +2,8 @@
   width: 100%;
   height: 70px;
   background-color: white;
-  position: fixed;
+  position: sticky;
   top: 0;
-  z-index: 3;
-
   .wrapper {
     padding: 10px 30px;
     display: flex;
@@ -29,12 +27,11 @@
       color: inherit;
       color: #34a1eb;
       text-decoration: none;
-      position: relative;
       justify-content: space-between;
       cursor: pointer;
-      display: flex;
       align-items: center;
       margin-right: 40px;
+      display: flex;
 
       .home {
         text-decoration: none;
