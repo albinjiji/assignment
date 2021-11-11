@@ -1,0 +1,41 @@
+.app {
+  justify-content: center;
+  text-align: center;
+
+  .left {
+    flex: 0.6;
+    align-items: center;
+
+    .head {
+      margin-top: 20px;
+      color: #34a1eb;
+      margin-bottom: 20px;
+    }
+
+    p {
+      align-items: center;
+    }
+
+    .item {
+      margin-top: 20px;
+      justify-content: center;
+      position: relative;
+      display: flex;
+    }
+  }
+
+  .right {
+    flex: 0.4;
+    align-items: center;
+
+    .imgContainer {
+      width: 400px;
+      height: 400px;
+
+      img {
+        width: 100%;
+        height: 80%;
+      }
+    }
+  }
+}
